@@ -1,0 +1,234 @@
+<!doctype html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>JSConf.cn &mdash; Conferences for the JavaScript community in China</title>
+  <meta name="description" content="JSConf.cn - Conferences for the JavaScript community in China">
+  <meta name="author" content="JSConf.cn">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/themes/type.css">
+  <link rel="stylesheet" href="css/themes/color.css">
+  
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <link rel="shortcut icon" href="images/favicons/favicon.ico">
+  <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+  
+  <script src="js/libs/modernizr.min.js"></script>
+  <script src="js/libs/jquery-1.8.3.min.js"></script>
+  <script src="js/libs/jquery.easing.1.3.min.js"></script>
+  <script src="js/libs/jquery.fitvids.js"></script>
+  <script src="js/script.js"></script>
+  
+</head>
+<body>
+
+<!-- Write preloader to page - this allows the site to load for users with JS disabled -->
+<script type="text/javascript">
+	document.write("<div id='sitePreloader'><div id='preloaderImage'><img src='images/site_preloader.gif' alt='Preloader' /></div></div>");
+</script>
+
+<div class="container">
+		<header class="sixteen columns">
+		<div id="logo">
+			<h1>JSConf.cn</h1>
+			<h2>Conferences for the JavaScript community in China</h2>
+		</div>
+		<nav>
+			<ul>
+				<li><button id="workPage">Conferences</button></li>
+				<li><button id="aboutPage">About</button></li>
+				<!--<li><a href="http://wordpress.org" target="_blank">Blog</a></li>-->
+			</ul>
+		</nav>
+		<hr />
+	</header>
+	
+	<div id="work">	
+		<div id="overview" class="sixteen columns">
+			<h3>Our JavaScript Community Events</h3>
+			<hr />
+		</div>
+		
+		<div class="eight columns" id="col1">
+		
+			<!-- JingJS begins ================================================================= -->
+			<div class="project">
+				
+				<div class="projectThumbnail">
+					<svg class="thumbnailMask"></svg>
+					<div class="projectThumbnailHover">
+						<h4>京JS 2013</h4>
+						<h5>Nov 9-11, Beijing</h5>
+					</div>
+					
+					<img src="images/jingjs.jpg" alt="Project 01" class="thumbnailImage" />
+				</div>
+				
+				<div class="projectInfo">
+					<h4>京JS 2013</h4>
+					<div class="projectNavCounter"></div>
+					<div class="projectNav">
+						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='http://jingjs.org'">jingjs.org</button></div>
+						<div class="projectNavClose"><button class="closeButton">Close</button></div>
+					</div>
+					<p>
+            京JS 2013 is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.
+					</p>
+					<ul>
+						<li><strong>Location:</strong> Beijing, China</li>
+						<li><strong>Date:</strong> November 9-11</li>
+						<li><strong>Year:</strong> 2013</li>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- JingJS 2013 ends =================================================================== -->
+			
+			<!-- HuJS 2012 begins ================================================================= -->
+			<div class="project">
+				
+				<div class="projectThumbnail">
+					<svg class="thumbnailMask"></svg>
+					<div class="projectThumbnailHover">
+						<h4>沪JS 2012</h4>
+						<h5>Sept 14-16, Shanghai</h5>
+					</div>
+					<img src="images/hujs.jpg" alt="Project 02" class="thumbnailImage" />
+				</div>
+				
+				<div class="projectInfo">
+					<h4>沪JS 2012</h4>
+					<div class="projectNavCounter"></div>
+					<div class="projectNav">
+						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='http://hujs.org'">hujs.org</button></div>
+						<div class="projectNavClose"><button class="closeButton">Close</button></div>
+					</div>
+					
+					<p>
+            A three day conference and hackathon focused on Javascript and Node.js technologies. This developer driven event brought together notable figures from both the Chinese and international Javascript communities to share their knowledge and passion for Javascript. The conference was held in Shanghai from September 14-16.
+          </p>
+					<ul>
+						<li><strong>Location:</strong> Shanghai, China</li>
+						<li><strong>Date:</strong> September 14-16</li>
+						<li><strong>Year:</strong> 2012</li>
+					</ul>
+				</div>
+				
+			</div>
+			<!-- HuJS 2012 ends =================================================================== -->
+						
+		</div><!-- col1 -->
+		
+		<!-- Even numbered projects are dynamically moved into this second column via JS -->
+		<div class="eight columns" id="col2">
+		</div>
+	
+	</div>
+	<!-- Work page ends ========================================================================= -->
+	
+	<!-- About page begins ====================================================================== -->
+	<div id="about">
+		
+		<div id="overview" class="sixteen columns">
+			<h3>China is an awesome place to be a JavaScript hacker</h3>
+			<hr />
+		</div>
+
+		<!-- Column 1 begins ==================================================================== -->
+		<div class="eight columns">
+      <h3>JavaScript is Everywhere</h3>
+      <p>
+        It’s in your browser, on your server, in your phone, on the wire between your devices, and possibly in your thermostat, beer keg, or karaoke system... and it’s only growing from there. We’ve gone from roll-over effects to robots, codeable toys and automated quadcopter drones, all speaking a common language of JSON, often sharing JavaScript code at their core.
+      </p>
+      <p>
+        China is home to some of the most talented developers in the world. We’re not kidding. China is bursting with artistic craftsmanship unlike anywhere else on the planet, and JsConf.cn is the community at the heart of it. There is no better time than now to be part of this growing international community.
+      </p>
+      
+      <h3>Our Conferences</h4>
+      <p>
+        The JSConf.cn family of conferences create a time and a place for this community to share information, discuss ideas, and work together to improve the art and science of JavaScript.
+      </p>
+
+      <h4>For Hackers</h4>
+      <p>
+        Come to our events for awesome engaging talks about JavaScript on the command-line, in the browser, or on a device, presented by some of the best JavaScript developers the world has to offer.
+      </p>
+      
+      <h4>For Entrepreneurs</h4>
+      <p>
+        During our hackathons, we create dedicated spaces for technologists and their business-savvy cohorts to connect and build the products of the future.
+      </p>
+      
+      <h4>For Everyone</h4>
+      <p>
+        We feel that inclusiveness is extremely important, and a big part of that is lowering the barrier to entry. In 2012, our conference was only 250RMB for exactly this reason. We present a mix of topics that will appeal to both the experienced JavaScript developer or total n00b, and everyone in-between. 
+      </p>
+
+			<h3>What People Are Saying</h3>
+			<p>
+			  Don't just take our word for it; listen to our community.
+			</p>
+			
+ 			<blockquote>
+				&ldquo;met some awesome chinese hackers today&rdquo;
+				<cite>James Halliday, <a href="https://github.com/substack" target="_blank">@substack</a></cite>
+			</blockquote>
+			<blockquote>
+				<p>&ldquo;I understood the conversation not because I know Chinese, but because I know JavaScript communities. I’ve heard the exact same conversations in English before.
+				<p>As I left the conference and started the long journey home, I felt glad to be welcomed and loved by people from so far away.&rdquo;
+				<cite>Tim Caswell, <a href="https://github.com/creationix" target="_blank">@creationix</a></cite>
+			</blockquote>
+ 			<blockquote>
+				&ldquo;沪JS was awesome.  Hoping 京JS is even better!&rdquo;
+				<cite>Charlie Crane, <a href="https://github.com/xiecc" target="_blank">@xiecc</a></cite>
+			</blockquote>
+			<blockquote>
+				<p>&ldquo;HuJS was a fantastic experience. It was amazing to see developers from the opposite ends of the world with very different languages and customs come together, share and learn.
+				<p>The event was a wonderful experience for me on multiple levels. We exchanged knowledge, we forged new bonds with the community, and we raised more international awareness about what JavaScript developers are doing in China.&rdquo;
+				<cite>Glenn Block, <a href="https://github.com/glennblock" target="_blank">@glennblock</a></cite>
+			</blockquote>
+		</div>
+		<!-- Column 1 ends ====================================================================== -->
+		
+		<!-- Column 2 begins ==================================================================== -->
+		<div class="eight columns">
+			
+			<img src="images/about.jpg" alt="About" />
+			
+			<ul class="linedList">
+				<li><strong>Location:</strong> China</li>
+				<li><strong>Email:</strong> <a href="mailto:welcome@jingjs.org">welcome@jingjs.org</a></li>
+				<li><strong>GitHub:</strong> <a href="https://github.com/jsconfcn">@jsconfcn</a></li>
+				<li><strong>Mailing List:</strong> <a href="http://goo.gl/ExqcwR" target="_blank">http://goo.gl/ExqcwR</a></li>
+			</ul>
+			
+		</div>
+		<!-- Column 2 ends ====================================================================== -->
+		
+	</div>
+	<!-- About page ends ======================================================================== -->
+	
+	<footer class="sixteen columns">
+		<hr />
+		<ul id="footerLinks">
+			<li>&copy; 2013 JSConf.cn. All rights reserved.</li>
+			<li><a href="mailto:welcome@jingjs.org">welcome@jingjs.org</a></li>
+			<li><a href="https://github.com/jsconfcn" target="_blank">GitHub</a></li>
+			<li><a href="https://groups.google.com/forum/#!forum/jsconf-cn" target="_blank">Mailing List</a></li>
+			<!--Notice: The "Powered by Type & Grids" link in the footer is required in the Free version. Upgrade to the Pro version if you would like to remove it. (www.typeandgrids.com/pirates) -->
+			<li>Powered by <a href="http://www.typeandgrids.com" target="_blank">Type &amp; Grids</a></li>
+		</ul>
+	</footer>
+</div><!-- container -->
+</body>
+</html>
